@@ -11,7 +11,7 @@ module.exports = {
     return res.send("Hi there!");
   },
   list: function(req, res) {
-    User.findAll().exec(function(err, data){
+    User.find().exec(function(err, data){
       if(err) {
         console.log(err);
       } else {
