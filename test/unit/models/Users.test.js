@@ -6,6 +6,6 @@ describe('UserModel', function() {
           done();
         })
         .catch(done);
-    })
-  })
-})
+    });
+  });
+});
